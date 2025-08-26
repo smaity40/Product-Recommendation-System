@@ -1,0 +1,35 @@
+# --- Python junk ---
+pycache/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+*.egg
+*.log
+
+# --- Virtual envs ---
+.venv/
+venv/
+
+# --- IDE/OS ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# --- Experiments (usually huge) ---
+mlruns/
+
+# --- Data & models (track with DVC instead) ---
+data/
+models/
+*.pkl
+*.idx
+*.bin
+*.pt
+*.h5
+*.pickle
+
+# --- DVC internals (keep .dvc files, ignore cache) ---
+.dvc/cache/
+.dvc/tmp/

@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.log
+mlruns/
+models/
+data/raw/
+*.dvc
+.dvc/
+.idea/
+.vscode/
+.env
